@@ -1,9 +1,9 @@
-/* ==== Scroll suave en todo el sitio ==== */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* ==== Reset básico ==== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,14 +16,13 @@ html {
 
 
 
-/* ==== Estructura general ==== */
 body {
   background-color: #f7f9fb;
   color: #333;
   line-height: 1.5;
 }
 
-/* ==== Header/Nav ==== */
+
 header {
   background-color: #4D6EC5;
   padding: 15px 0;
@@ -39,13 +38,13 @@ header .container {
   align-items: center;
 }
 
-/* LOGO */
+
 .logo {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* MENÚ como botones en fila */
+
 .navbar-links {
   list-style: none;
   display: flex;
@@ -81,7 +80,7 @@ header .container {
 }
 
 
-/* ==== Hero (Crianza Coordinada + Login) ==== */
+
 .hero {
   background-color: #e6f0ff;
   padding: 50px 0;
@@ -153,7 +152,7 @@ button.secondary {
 
 .hero-image {
   flex: 1;
-  text-align: right; /* ← esto alinea la imagen a la derecha */
+  text-align: right; 
 }
 
 
@@ -163,7 +162,7 @@ button.secondary {
   border-radius: 8px;
 }
 
-/* ==== Login form dentro del hero ==== */
+
 #login-form {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -175,7 +174,7 @@ button.secondary {
 
 #login-form button {
   display: block;
-  margin: 20px auto 0 auto; /* Centrado horizontal */
+  margin: 20px auto 0 auto; 
   background-color: #4D6EC5;
   color: white;
   padding: 10px 20px;
@@ -205,7 +204,7 @@ button.secondary {
   border-radius: 6px;
 }
 
-/* ==== Sección Servicios y Funciones ==== */
+
 .servicios,
 .funciones {
   padding: 60px 20px;
@@ -271,7 +270,7 @@ button.secondary {
   background-color: #3b56a1;
 }
 
-/* ==== Footer ==== */
+
 footer {
   background-color: #4D6EC5;
   color: white;
@@ -343,7 +342,7 @@ footer {
 
 
 
-/* ==== Estructura general ==== */
+
 body {
   background-color: #f7f9fb;
   color: #333;
@@ -401,7 +400,7 @@ h2 {
   color: #2f3e78;
 }
 
-/* ==== Formularios ==== */
+
 form {
   background-color: #ffffff;
   padding: 1rem;
@@ -440,7 +439,7 @@ form button:hover {
   background-color: #3b56a1;
 }
 
-/* ==== Listas ==== */
+
 ul {
   list-style: none;
   margin-top: 1rem;
@@ -462,7 +461,7 @@ ul li span {
   margin-left: 0.5rem;
 }
 
-/* ==== Tablas ==== */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -483,7 +482,7 @@ table tr:last-child td {
   border-bottom: none;
 }
 
-/* ==== Imágenes de perfil ==== */
+
 #preview-foto {
   display: block;
   max-width: 150px;
@@ -491,7 +490,7 @@ table tr:last-child td {
   margin: 1rem 0;
 }
 
-/* ==== Indicadores (gráficos) ==== */
+
 canvas {
   background-color: #fff;
   border-radius: 8px;
@@ -499,7 +498,7 @@ canvas {
   box-shadow: 0 0 4px rgba(0,0,0,0.1);
 }
 
-/* ==== Footer ==== */
+
 footer {
   text-align: center;
   padding: 2rem 1rem;
